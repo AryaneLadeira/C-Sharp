@@ -19,6 +19,13 @@ namespace ConsoleApp1
             set { altura = value; } 
         }
 
+        public string Nome 
+        {
+            get { return nome; }
+            set { nome = value; } 
+        }
+
+        private string nome;
         private double peso;
         private double altura;
     }
