@@ -6,13 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            double[] vetor = new double[5];
-
-            vetor[0] = 1;
-            vetor[1] = 0;
-            vetor[2] = 7;
-            vetor[3] = -58;
-            vetor[4] = -5;
+            double[] vetor = new double[5] {1, 0, 7, -58, -5};
 
             NegativoParaPositivo(vetor);
             LerVetor(vetor);

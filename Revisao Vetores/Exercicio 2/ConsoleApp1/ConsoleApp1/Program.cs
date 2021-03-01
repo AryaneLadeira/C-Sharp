@@ -6,13 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int[] vetor = new int[5];
-
-            vetor[0] = 45;
-            vetor[1] = 2;
-            vetor[2] = 67;
-            vetor[3] = 100;
-            vetor[4] = 1;
+            int[] vetor = new int[5] {45, 2, 67, 100, 1 };
 
             Console.WriteLine("O maior valor do vetor é: {0}", MaiorValor(vetor));
         }
